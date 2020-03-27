@@ -6,6 +6,7 @@ def main():
     try:
         print(f"Hello {sys.argv[1]}!")
     except IndexError:
+        # Greetings
         print("Hello, world")
 
 
